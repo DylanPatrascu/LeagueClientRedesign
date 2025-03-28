@@ -14,8 +14,9 @@ public class ConnectButtonScroll : MonoBehaviour {
 
         int buttonIndex = System.Array.IndexOf(buttons, clickedButton);
       
-        if (buttonIndex == -1)
+        if (buttonIndex == -1) {
             return;
+        }
         
         scrollBar.value = scrollValue[buttonIndex];
     }
