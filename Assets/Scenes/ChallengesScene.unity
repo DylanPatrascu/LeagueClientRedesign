@@ -630,9 +630,9 @@ RectTransform:
   m_Father: {fileID: 1914360247}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -14, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &158518032
 MonoBehaviour:
@@ -824,8 +824,6 @@ GameObject:
   - component: {fileID: 343859488}
   - component: {fileID: 343859492}
   - component: {fileID: 343859487}
-  - component: {fileID: 343859491}
-  - component: {fileID: 343859490}
   m_Layer: 5
   m_Name: EventButton
   m_TagString: Untagged
@@ -877,8 +875,8 @@ MonoBehaviour:
     m_NormalColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
+    m_DisabledColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -897,9 +895,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 901130425}
-        m_TargetAssemblyTypeName: RadioButtons, Assembly-CSharp
-        m_MethodName: OnButtonClicked
+      - m_Target: {fileID: 776652372}
+        m_TargetAssemblyTypeName: ConnectButtonScroll, Assembly-CSharp
+        m_MethodName: ClickAndScroll
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 343859487}
@@ -947,66 +945,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343859485}
   m_CullTransparentMesh: 1
---- !u!114 &343859490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343859485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextEnter
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 764765519}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextExit
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 764765519}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &343859491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343859485}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e136078131ebc498129914f98ae9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.78431374, g: 0.6666667, b: 0.43137255, a: 1}
-  defaultColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
-  fontSizeIncrease: 5
 --- !u!114 &343859492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1698,7 +1636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -7, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764765519
@@ -1812,6 +1750,7 @@ GameObject:
   - component: {fileID: 776652371}
   - component: {fileID: 776652370}
   - component: {fileID: 776652369}
+  - component: {fileID: 776652372}
   m_Layer: 5
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
@@ -1852,7 +1791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 2
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -1860,11 +1799,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.6901961, g: 0.57254905, b: 0.23529413, a: 1}
-    m_HighlightedColor: {r: 0.6901961, g: 0.57254905, b: 0.23529413, a: 1}
-    m_PressedColor: {r: 0.6901961, g: 0.57254905, b: 0.23529413, a: 1}
-    m_SelectedColor: {r: 0.6901961, g: 0.57254905, b: 0.23529413, a: 1}
-    m_DisabledColor: {r: 0.6901961, g: 0.57254905, b: 0.23529413, a: 1}
+    m_NormalColor: {r: 0.7843138, g: 0.60784316, b: 0.2392157, a: 1}
+    m_HighlightedColor: {r: 0.7843138, g: 0.60784316, b: 0.2392157, a: 1}
+    m_PressedColor: {r: 0.7843138, g: 0.60784316, b: 0.2392157, a: 1}
+    m_SelectedColor: {r: 0.7843138, g: 0.60784316, b: 0.2392157, a: 1}
+    m_DisabledColor: {r: 0.7843138, g: 0.60784316, b: 0.2392157, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1882,7 +1821,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 872083112}
   m_HandleRect: {fileID: 872083111}
   m_Direction: 2
-  m_Value: 0.9994693
+  m_Value: 0.96724033
   m_Size: 0.1641032
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1926,6 +1865,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776652367}
   m_CullTransparentMesh: 1
+--- !u!114 &776652372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776652367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b25fcbfbe52d94dac528690be36880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 1195675920}
+  - {fileID: 919778541}
+  - {fileID: 1400797546}
+  - {fileID: 343859487}
+  - {fileID: 1249847507}
+  - {fileID: 1133464483}
+  scrollValue:
+  - 1
+  - 0.903
+  - 0.697
+  - 0.454
+  - 0.023
+  - 0
+  scrollBar: {fileID: 776652369}
 --- !u!1 &867214963
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,8 +2060,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1079470223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.83545315}
-  m_AnchorMax: {x: 1, y: 0.99955636}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2186,7 +2152,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901130423}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a53fb570389b5e3499a670883b7de71e, type: 3}
   m_Name: 
@@ -2422,8 +2388,6 @@ GameObject:
   - component: {fileID: 919778542}
   - component: {fileID: 919778546}
   - component: {fileID: 919778541}
-  - component: {fileID: 919778545}
-  - component: {fileID: 919778544}
   m_Layer: 5
   m_Name: WeeklyButton
   m_TagString: Untagged
@@ -2448,7 +2412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316, y: 0}
+  m_AnchoredPosition: {x: -322, y: 0}
   m_SizeDelta: {x: 155, y: 36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919778541
@@ -2475,8 +2439,8 @@ MonoBehaviour:
     m_NormalColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
+    m_DisabledColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2495,25 +2459,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 901130425}
-        m_TargetAssemblyTypeName: RadioButtons, Assembly-CSharp
-        m_MethodName: OnButtonClicked
+      - m_Target: {fileID: 776652372}
+        m_TargetAssemblyTypeName: ConnectButtonScroll, Assembly-CSharp
+        m_MethodName: ClickAndScroll
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 919778541}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2557,66 +2509,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919778539}
   m_CullTransparentMesh: 1
---- !u!114 &919778544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919778539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextEnter
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1439158601}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextExit
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1439158601}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &919778545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919778539}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e136078131ebc498129914f98ae9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.78431374, g: 0.6666667, b: 0.43137255, a: 1}
-  defaultColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
-  fontSizeIncrease: 5
 --- !u!114 &919778546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3531,8 +3423,6 @@ GameObject:
   - component: {fileID: 1133464484}
   - component: {fileID: 1133464488}
   - component: {fileID: 1133464483}
-  - component: {fileID: 1133464487}
-  - component: {fileID: 1133464486}
   m_Layer: 5
   m_Name: RankedButton
   m_TagString: Untagged
@@ -3584,8 +3474,8 @@ MonoBehaviour:
     m_NormalColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
+    m_DisabledColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3604,9 +3494,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 901130425}
-        m_TargetAssemblyTypeName: RadioButtons, Assembly-CSharp
-        m_MethodName: OnButtonClicked
+      - m_Target: {fileID: 776652372}
+        m_TargetAssemblyTypeName: ConnectButtonScroll, Assembly-CSharp
+        m_MethodName: ClickAndScroll
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1133464483}
@@ -3654,66 +3544,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133464481}
   m_CullTransparentMesh: 1
---- !u!114 &1133464486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133464481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextEnter
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1271236876}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextExit
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1271236876}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1133464487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133464481}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e136078131ebc498129914f98ae9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.78431374, g: 0.6666667, b: 0.43137255, a: 1}
-  defaultColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
-  fontSizeIncrease: 5
 --- !u!114 &1133464488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3878,8 +3708,6 @@ GameObject:
   - component: {fileID: 1195675921}
   - component: {fileID: 1195675925}
   - component: {fileID: 1195675920}
-  - component: {fileID: 1195675924}
-  - component: {fileID: 1195675923}
   m_Layer: 5
   m_Name: DailyButton
   m_TagString: Untagged
@@ -3931,8 +3759,8 @@ MonoBehaviour:
     m_NormalColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
+    m_DisabledColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3951,9 +3779,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 901130425}
-        m_TargetAssemblyTypeName: RadioButtons, Assembly-CSharp
-        m_MethodName: OnButtonClicked
+      - m_Target: {fileID: 776652372}
+        m_TargetAssemblyTypeName: ConnectButtonScroll, Assembly-CSharp
+        m_MethodName: ClickAndScroll
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1195675920}
@@ -4001,66 +3829,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195675918}
   m_CullTransparentMesh: 1
---- !u!114 &1195675923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195675918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextEnter
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2060520583}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextExit
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2060520583}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1195675924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195675918}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e136078131ebc498129914f98ae9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.78431374, g: 0.6666667, b: 0.43137255, a: 1}
-  defaultColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
-  fontSizeIncrease: 5
 --- !u!114 &1195675925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4518,8 +4286,6 @@ GameObject:
   - component: {fileID: 1249847508}
   - component: {fileID: 1249847512}
   - component: {fileID: 1249847507}
-  - component: {fileID: 1249847511}
-  - component: {fileID: 1249847510}
   m_Layer: 5
   m_Name: MasteryButton
   m_TagString: Untagged
@@ -4571,8 +4337,8 @@ MonoBehaviour:
     m_NormalColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
+    m_DisabledColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4591,9 +4357,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 901130425}
-        m_TargetAssemblyTypeName: RadioButtons, Assembly-CSharp
-        m_MethodName: OnButtonClicked
+      - m_Target: {fileID: 776652372}
+        m_TargetAssemblyTypeName: ConnectButtonScroll, Assembly-CSharp
+        m_MethodName: ClickAndScroll
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1249847507}
@@ -4641,66 +4407,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249847505}
   m_CullTransparentMesh: 1
---- !u!114 &1249847510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249847505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextEnter
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2062668278}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextExit
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2062668278}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1249847511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249847505}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e136078131ebc498129914f98ae9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.78431374, g: 0.6666667, b: 0.43137255, a: 1}
-  defaultColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
-  fontSizeIncrease: 5
 --- !u!114 &1249847512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5079,8 +4785,6 @@ GameObject:
   - component: {fileID: 1400797547}
   - component: {fileID: 1400797551}
   - component: {fileID: 1400797546}
-  - component: {fileID: 1400797550}
-  - component: {fileID: 1400797549}
   m_Layer: 5
   m_Name: ActButton
   m_TagString: Untagged
@@ -5132,8 +4836,8 @@ MonoBehaviour:
     m_NormalColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
+    m_DisabledColor: {r: 0.68235296, g: 0.5647059, b: 0.23137257, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5152,9 +4856,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 901130425}
-        m_TargetAssemblyTypeName: RadioButtons, Assembly-CSharp
-        m_MethodName: OnButtonClicked
+      - m_Target: {fileID: 776652372}
+        m_TargetAssemblyTypeName: ConnectButtonScroll, Assembly-CSharp
+        m_MethodName: ClickAndScroll
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1400797546}
@@ -5202,66 +4906,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400797544}
   m_CullTransparentMesh: 1
---- !u!114 &1400797549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400797544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextEnter
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1618279449}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: OnButtonHover, Assembly-CSharp
-          m_MethodName: UpdateTextExit
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1618279449}
-            m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1400797550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400797544}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e136078131ebc498129914f98ae9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.78431374, g: 0.6666667, b: 0.43137255, a: 1}
-  defaultColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
-  fontSizeIncrease: 5
 --- !u!114 &1400797551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5388,7 +5032,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1439158601
@@ -5989,7 +5633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -7, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618279449
@@ -6313,7 +5957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.1447}
+  m_AnchoredPosition: {x: 0, y: 132.38152}
   m_SizeDelta: {x: 1194.416, y: 4834.3154}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1830393815
@@ -6446,7 +6090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1895920227
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6560,11 +6204,11 @@ MonoBehaviour:
   m_Content: {fileID: 1830393814}
   m_Horizontal: 1
   m_Vertical: 1
-  m_MovementType: 1
+  m_MovementType: 2
   m_Elasticity: 0.1
   m_Inertia: 1
-  m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_DecelerationRate: 0.2
+  m_ScrollSensitivity: 5
   m_Viewport: {fileID: 158518031}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 776652369}
@@ -7545,7 +7189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2062668278
