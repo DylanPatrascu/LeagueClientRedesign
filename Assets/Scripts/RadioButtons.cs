@@ -18,8 +18,9 @@ public class RadioButtons : MonoBehaviour {
         
         int buttonIndex = System.Array.IndexOf(buttons, clickedButton);
       
-        if (buttonIndex == -1)
+        if (buttonIndex == -1) {
             return;
+        }
       
         SetAllButtonsInteractable();
       
