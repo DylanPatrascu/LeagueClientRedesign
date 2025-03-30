@@ -8,6 +8,7 @@ public class ChampionDisplay : MonoBehaviour
     public RectTransform splashRect;
     private string role;
     public ChampionData championData;
+    public GameObject lockIcon;
 
     
     public void Setup(ChampionData data)
@@ -18,6 +19,7 @@ public class ChampionDisplay : MonoBehaviour
         artImage.sprite = data.splashArt;
         splashRect.localPosition = data.splashOffset;
         splashRect.localScale = Vector3.one * data.splashScale;
+        lockIcon.SetActive(!data.isPurchased);
 
         if (lockOverlay != null)
             lockOverlay.SetActive(!data.isPurchased);

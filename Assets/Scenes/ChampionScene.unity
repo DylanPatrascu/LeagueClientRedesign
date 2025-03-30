@@ -515,7 +515,15 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: -60, y: 0}
     splashScale: 1
-    bio: 
+    bio: '
+
+      Once honored defenders of Shurima against the Void, Aatrox and
+      his brethren would eventually become an even greater threat to Runeterra, and
+      were defeated only by cunning mortal sorcery. But after centuries of imprisonment,
+      Aatrox was the first to find freedom once more, corrupting and transforming
+      those foolish enough to try and wield the magical weapon that contained his
+      essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation
+      of his previous form, seeking an apocalyptic and long overdue vengeance.'
     nameImage: {fileID: 21300000, guid: bc56271ccdc28496d96fd220d2434159, type: 3}
   - name: Ahri
     splashArt: {fileID: 21300000, guid: e842b7d42b54045539ea8f2bd0b4af06, type: 3}
@@ -523,7 +531,12 @@ MonoBehaviour:
     isPurchased: 0
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Innately connected to the magic of the spirit realm, Ahri is a fox-like
+      vastaya who can manipulate her prey's emotions and consume their essence\u2014receiving
+      flashes of their memory and insight from each soul she consumes. Once a powerful
+      yet wayward predator, Ahri is now traveling the world in search of remnants
+      of her ancestors while also trying to replace her stolen memories with ones
+      of her own making."
     nameImage: {fileID: 21300000, guid: b3e623cab5570416e8e8d4ca3260acc0, type: 3}
   - name: Akali
     splashArt: {fileID: 21300000, guid: d26cc2136bcd64da987fe5b29724a55f, type: 3}
@@ -531,15 +544,24 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: 'Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali
+      now strikes alone, ready to be the deadly weapon her people need. Though she
+      holds onto all she learned from her master Shen, she has pledged to defend
+      Ionia from its enemies, one kill at a time. Akali may strike in silence, but
+      her message will be heard loud and clear: fear the assassin with no master.'
     nameImage: {fileID: 21300000, guid: 3812d6b7934824071b4cb89fa7cd6110, type: 3}
   - name: Alistar
     splashArt: {fileID: 21300000, guid: 027d4f5f322eb48649cd27e94c345678, type: 3}
     role: Support
     isPurchased: 1
     splashOffset: {x: -40, y: 0}
-    splashScale: 1
-    bio: 
+    splashScale: 1.03
+    bio: Always a mighty warrior with a fearsome reputation, Alistar seeks revenge
+      for the death of his clan at the hands of the Noxian empire. Though he was
+      enslaved and forced into the life of a gladiator, his unbreakable will was
+      what kept him from truly becoming a beast. Now, free of the chains of his former
+      masters, he fights in the name of the downtrodden and the disadvantaged, his
+      rage as much a weapon as his horns, hooves and fists.
     nameImage: {fileID: 21300000, guid: d19bab20b91994a8a827ed8e1169ac18, type: 3}
   - name: Ambessa
     splashArt: {fileID: 21300000, guid: e903a0b1d3280422a993befbadf7c229, type: 3}
@@ -547,7 +569,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "All who know the name Medarda respect and fear the family\u2019s leader,
+      Ambessa. As a Noxian general, she embodies a deadly combination of ruthless
+      strength and fearless resolve in battle. Her role as matriarch is no different,
+      requiring great cunning to empower the Medardas while leaving no room for failure
+      or compassion. Embracing the merciless ways of the Wolf, Ambessa will do whatever
+      it takes to protect her family's legacy, even at the cost of her own children's
+      love."
     nameImage: {fileID: 21300000, guid: 8c7fd98345890404daa062fa3c35cb1e, type: 3}
   - name: Aurelion Sol
     splashArt: {fileID: 21300000, guid: b2fdb67c68a4e4fc78d002d9365ef8ae, type: 3}
@@ -555,7 +583,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Aurelion Sol once graced the vast emptiness of the celestial realm with
+      wonders of his own devising, but was tricked by the Aspects of Targon into
+      revealing the secrets of a sun that he himself created. His awesome power was
+      channeled into immortal god-warriors to protect the apparently insignificant
+      world of Runeterra\u2014now, desiring a return to his mastery of the cosmos,
+      Aurelion Sol will drag the very stars from the sky, if he must, in order to
+      regain his freedom."
     nameImage: {fileID: 21300000, guid: 22a7012f11bcb4f90afbc545bfdad984, type: 3}
   - name: Bel'Veth
     splashArt: {fileID: 21300000, guid: 9a20b6e1495d4486e8c8e0aaf2e069da, type: 3}
@@ -563,7 +597,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "\nAnightmarish empress created from the raw material of an entire devoured
+      city, Bel\u2019Veth is the end of Runeterra itself... and the beginning of
+      a monstrous reality of her own design. Driven by epochs of repurposed history,
+      knowledge, and memories from the world above, she voraciously feeds an ever-expanding
+      need for new experiences and emotions, consuming all that crosses her path.
+      Yet her wants could never be sated by only one world as she turns her hungry
+      eyes toward the Void\u2019s old masters..."
     nameImage: {fileID: 21300000, guid: 5116478ec7355418bb060381495ed051, type: 3}
   - name: Fiddlesticks
     splashArt: {fileID: 21300000, guid: 6077231be1767416cbbd62fd4a93624f, type: 3}
@@ -571,7 +611,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Something has awoken in Runeterra. Something ancient. Something terrible.
+      The ageless horror known as Fiddlesticks stalks the edges of mortal society,
+      drawn to areas thick with paranoia where it feeds upon terrorized victims.
+      Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself,
+      shattering the minds of those unlucky enough to survive in its wake. Beware
+      the sounding of the crow, or the whispering of the shape that appears almost
+      human\u2026 Fiddlesticks has returned."
     nameImage: {fileID: 21300000, guid: 9ae91ca00bf4249408284fd72265e20a, type: 3}
   - name: Kai'Sa
     splashArt: {fileID: 21300000, guid: 623bceec34e98417e870efc72e8a1305, type: 3}
@@ -579,7 +625,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Claimed by the Void when she was only a child, Kai\u2019Sa managed to survive
+      through sheer tenacity and strength of will. Her experiences have made her
+      a deadly hunter and, to some, the harbinger of a future they would rather not
+      live to see. Having entered into an uneasy symbiosis with a living Void carapace,
+      the time will soon come when she must decide whether to forgive those mortals
+      who would call her a monster, and defeat the coming darkness together\u2026
+      or simply to forget, as the Void consumes the world that left her behind."
     nameImage: {fileID: 21300000, guid: bf87be23462fa4611acfb3cdfec7acee, type: 3}
   - name: Karma
     splashArt: {fileID: 21300000, guid: 578319515c62145e297908e3bca581c4, type: 3}
@@ -587,7 +639,12 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: -200, y: 0}
     splashScale: 1
-    bio: 
+    bio: "No mortal exemplifies the spiritual traditions of Ionia more than Karma.
+      She is the living embodiment of an ancient soul reincarnated countless times,
+      carrying all her accumulated memories into each new life, and blessed with
+      power that few can comprehend. She has done her best to guide her people in
+      recent times of crisis, though she knows that peace and harmony may come only
+      at a considerable cost\u2014both to her, and to the land she holds most dear."
     nameImage: {fileID: 21300000, guid: 77cc4b71efa79411aa98ebd8b7da26e5, type: 3}
   - name: Kayn
     splashArt: {fileID: 21300000, guid: 303760da1775049fdaa27e36d63d00cd, type: 3}
@@ -595,7 +652,12 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Apeerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve
+      his true destiny\u2014to one day lead the Order of Shadow into a new era of
+      Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by
+      its creeping corruption of his body and mind. There are only two possible outcomes:
+      either Kayn bends the weapon to his will... or the malevolent blade consumes
+      him completely, paving the way for the destruction of all Runeterra."
     nameImage: {fileID: 21300000, guid: 9647296ba89114e5c919dd78583a2dfb, type: 3}
   - name: Kindred
     splashArt: {fileID: 21300000, guid: da9061705f32147a198e0a7e11c9944b, type: 3}
@@ -603,7 +665,12 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Separate, but never parted, Kindred represents the twin essences of death.
+      Lamb\u2019s bow offers a swift release from the mortal realm for those who
+      accept their fate. Wolf hunts down those who run from their end, delivering
+      violent finality within his crushing jaws. Though interpretations of Kindred\u2019s
+      nature vary across Runeterra, every mortal must choose the true face of their
+      death."
     nameImage: {fileID: 21300000, guid: 90be41a7795f540ddb162e96ea1f8deb, type: 3}
   - name: LeBlanc
     splashArt: {fileID: 21300000, guid: 7224ed32c650b4c91ad4995824b0091d, type: 3}
@@ -611,7 +678,12 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Mysterious even to other members of the Black Rose cabal, LeBlanc is but
+      one of many names for a pale woman who has manipulated people and events since
+      the earliest days of Noxus. Using her magic to mirror herself, the sorceress
+      can appear to anyone, anywhere, and even be in many places at once. Always
+      plotting just out of sight, LeBlanc\u2019s true motives are as inscrutable
+      as her shifting identity."
     nameImage: {fileID: 21300000, guid: 8b1e760b973cf48e4ae04a4aa12ee80d, type: 3}
   - name: Mel
     splashArt: {fileID: 21300000, guid: 6ff10c2ce493841a4b1ac837b95055f0, type: 3}
@@ -619,7 +691,14 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Mel Medarda is the presumed heir of the Medarda family, once one of the
+      most powerful in Noxus. In appearance she is a graceful aristocrat, but beneath
+      the surface lies a skilled politician who makes it her business to know everything
+      about everyone she meets. After an encounter with the mysterious Black Rose,
+      Mel discovered the depths of her mother's deception and, for once, faced a
+      situation potentially beyond her control. With newly awakened magical abilities,
+      she sailed home in search of answers\u2014and though many still seek to temper
+      the light within her, Mel's soul remains forever defiant."
     nameImage: {fileID: 21300000, guid: cedaa460cd53c467a87b313576b8aa5a, type: 3}
   - name: Nilah
     splashArt: {fileID: 21300000, guid: f44ad6f38093344599b90486baf77810, type: 3}
@@ -627,7 +706,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: -60, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Nilah is an ascetic warrior from a distant land, seeking the world\u2019s
+      deadliest, most titanic opponents so that she might challenge and destroy them.
+      Having won her power through an encounter with the long-imprisoned demon of
+      joy, she has no emotions other than unceasing jubilation\u2014a small price
+      to pay for the vast strength she now possesses. Channeling the demon\u2019s
+      liquid form into a blade of unparalleled might, she stands defiant against
+      ancient threats long forgotten."
     nameImage: {fileID: 21300000, guid: d197b0ec4a47f4ca788fdffc5a1732d1, type: 3}
   - name: Poppy
     splashArt: {fileID: 21300000, guid: bdf5b70ea627f49ae89cf47482203375, type: 3}
@@ -635,7 +720,12 @@ MonoBehaviour:
     isPurchased: 0
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "\nRuneterra has no shortage of valiant champions, but few are as tenacious
+      as Poppy. Bearing the legendary hammer of Orlon, a weapon twice her size, this
+      determined yordle has spent untold years searching in secret for the fabled
+      \u201CHero of Demacia,\u201D said to be its rightful wielder. Until then, she
+      dutifully charges into battle, pushing back the kingdom\u2019s enemies with
+      every whirling strike."
     nameImage: {fileID: 21300000, guid: 395149eebf2d543cca6f36a7d422fcd2, type: 3}
   - name: Pyke
     splashArt: {fileID: 21300000, guid: ce51fc58129f64dc2a98787e25f8508d, type: 3}
@@ -643,7 +733,12 @@ MonoBehaviour:
     isPurchased: 0
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Arenowned harpooner from the slaughter docks of Bilgewater, Pyke should
+      have met his death in the belly of a gigantic jaull-fish\u2026 and yet, he
+      returned. Now, stalking the dank alleys and backways of his former hometown,
+      he uses his new supernatural gifts to bring a swift and gruesome end to those
+      who make their fortune by exploiting others\u2014and a city that prides itself
+      on hunting monsters now finds a monster hunting them."
     nameImage: {fileID: 21300000, guid: 67a75f6a51a384d3ab6fd92589998432, type: 3}
   - name: Renata Glasc
     splashArt: {fileID: 21300000, guid: dfcae24d0d0ef4de69ed1eb047c9b9d4, type: 3}
@@ -651,15 +746,25 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Renata Glasc rose from the ashes of her childhood home with nothing but
+      her name and her parents\u2019 alchemical research. In the decades since, she
+      has become Zaun\u2019s wealthiest chem-baron, a business magnate who built
+      her power by tying everyone\u2019s interests to her own. Work with her, and
+      be rewarded beyond measure. Work against her, and live to regret it. But everyone
+      comes to her side, eventually."
     nameImage: {fileID: 21300000, guid: 1c5e788a514ad4b4cbeb084db25a0b8c, type: 3}
   - name: Samira
     splashArt: {fileID: 21300000, guid: 474388d5612844590b0472fe27659c90, type: 3}
     role: Bottom
-    isPurchased: 1
+    isPurchased: 0
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: Samira stares death in the eye with unyielding confidence, seeking thrill
+      wherever she goes. After her Shuriman home was destroyed as a child, Samira
+      found her true calling in Noxus, where she built a reputation as a stylish
+      daredevil taking on dangerous missions of the highest caliber. Wielding black-powder
+      pistols and a custom-engineered blade, Samira thrives in life-or-death circumstances,
+      eliminating any who stand in her way with flash and flair.
     nameImage: {fileID: 21300000, guid: fa520c4b9ac5d46219e0dbd4c728a2b0, type: 3}
   - name: Senna
     splashArt: {fileID: 21300000, guid: 973fcc42e1570403f8c414c4ef42597f, type: 3}
@@ -667,7 +772,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "\nCursed from childhood to be haunted by the supernatural Black Mist, Senna
+      joined a sacred order known as the Sentinels of Light, and fiercely fought
+      back\u2014only to be killed, her soul imprisoned in a lantern by the cruel
+      specter Thresh. But refusing to lose hope, within the lantern Senna learned
+      to use the Mist, and reemerged to new life, forever changed. Now wielding darkness
+      along with light, Senna seeks to end the Black Mist by turning it against itself\u2014with
+      every blast of her relic weapon, redeeming the souls lost within."
     nameImage: {fileID: 21300000, guid: 7afde0371fb48499398dbb5477c11d55, type: 3}
   - name: Seraphine
     splashArt: {fileID: 21300000, guid: e4cc71e920f98433c825034997de86ba, type: 3}
@@ -675,7 +786,12 @@ MonoBehaviour:
     isPurchased: 0
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others\u2014the
+      world sings to her, and she sings back. Though these sounds overwhelmed her
+      in her youth, she now draws on them for inspiration, turning the chaos into
+      a symphony. She performs for the sister cities to remind their citizens that
+      they\u2019re not alone, that they\u2019re stronger together, and that, in her
+      eyes, their potential is limitless."
     nameImage: {fileID: 21300000, guid: fb923233d35c4495cb67fa65fdc8902f, type: 3}
   - name: Tahm Kench
     splashArt: {fileID: 21300000, guid: b1b3bca1bbb904bb399457a9ba2f8bde, type: 3}
@@ -683,7 +799,13 @@ MonoBehaviour:
     isPurchased: 0
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: Known by many names throughout history, the demon Tahm Kench travels the
+      waterways of Runeterra, feeding his insatiable appetite with the misery of
+      others. Though he may appear singularly charming and proud, he swaggers through
+      the physical realm like a vagabond in search of unsuspecting prey. His lashing
+      tongue can stun even a heavily armored warrior from a dozen paces, and to fall
+      into his rumbling belly is to tumble into an abyss from which there is little
+      hope of return.
     nameImage: {fileID: 21300000, guid: 17d379a42c0be4e4296cb4c37617fd6b, type: 3}
   - name: Volibear
     splashArt: {fileID: 21300000, guid: 1aa120cb473634683ae45116b713f4ca, type: 3}
@@ -691,7 +813,13 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "To those who still revere him, the Volibear is the storm made manifest.
+      Destructive, wild, and stubbornly resolute, he existed before mortals walked
+      the Freljord\u2019s tundra, and is fiercely protective of the lands that he
+      and his demi-god kin created. Cultivating a deep hatred of civilization and
+      the weakness it brought with it, he now fights to return to the old ways\u2014when
+      the land was untamed, and blood spilled freely\u2014and eagerly battles all
+      who oppose him, with tooth, claw, and thundering domination."
     nameImage: {fileID: 21300000, guid: e164a0e5a5efd4b44ace2b646eeda95f, type: 3}
   - name: Warwick
     splashArt: {fileID: 21300000, guid: 666d785176e9b41a0b48a4b02f93da73, type: 3}
@@ -699,7 +827,12 @@ MonoBehaviour:
     isPurchased: 1
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "\nWarwick is a monster who hunts the gray alleys of Zaun. Transformed by
+      agonizing experiments, his body is fused with an intricate system of chambers
+      and pumps, machinery filling his veins with alchemical rage. He bursts from
+      the shadows to prey upon those criminals who terrorize the city\u2019s depths.
+      Warwick is drawn to blood, driven mad by its scent\u2026 and none who spill
+      it can escape him."
     nameImage: {fileID: 21300000, guid: 1535197cccad1450db70fe9b6e7fd2e4, type: 3}
   - name: Yuumi
     splashArt: {fileID: 21300000, guid: 48a538148636246b691f0a59dfef68a0, type: 3}
@@ -707,7 +840,14 @@ MonoBehaviour:
     isPurchased: 0
     splashOffset: {x: 0, y: 0}
     splashScale: 1
-    bio: 
+    bio: "Amagical cat from Bandle City, Yuumi was once the familiar of a yordle
+      enchantress, Norra. When her master mysteriously disappeared, Yuumi became
+      the Keeper of Norra\u2019s sentient Book of Thresholds, traveling through portals
+      in its pages to search for her. Yearning for affection, Yuumi seeks friendly
+      companions to partner with on her journey, protecting them with luminous shields
+      and fierce resolve. While Book strives to keep her on task, Yuumi is often
+      drawn to worldly comforts, such as naps and fish. In the end, however, she
+      always returns to her quest to find her friend."
     nameImage: {fileID: 21300000, guid: 60777ec49c2ea4957bceca68478070c1, type: 3}
 --- !u!4 &193091996
 Transform:
@@ -1896,6 +2036,144 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &878869719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878869720}
+  - component: {fileID: 878869722}
+  - component: {fileID: 878869721}
+  m_Layer: 5
+  m_Name: Overview Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &878869720
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878869719}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1560704404}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -193, y: 423}
+  m_SizeDelta: {x: -1276.103, y: -780}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &878869721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878869719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Overview
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3ae9bb6d231a04f468f22633ce0cc4d1, type: 2}
+  m_sharedMaterial: {fileID: 1090105011762810092, guid: 3ae9bb6d231a04f468f22633ce0cc4d1, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282162120
+  m_fontColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 35
+  m_fontSizeBase: 35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &878869722
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878869719}
+  m_CullTransparentMesh: 1
 --- !u!1 &910505378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2723,144 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083202613}
   m_CullTransparentMesh: 1
+--- !u!1 &1114633512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114633513}
+  - component: {fileID: 1114633515}
+  - component: {fileID: 1114633514}
+  m_Layer: 5
+  m_Name: Mastery Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1114633513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114633512}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1560704404}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 133, y: 423}
+  m_SizeDelta: {x: -1276.103, y: -780}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1114633514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114633512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Mastery
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3ae9bb6d231a04f468f22633ce0cc4d1, type: 2}
+  m_sharedMaterial: {fileID: 1090105011762810092, guid: 3ae9bb6d231a04f468f22633ce0cc4d1, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282162120
+  m_fontColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 35
+  m_fontSizeBase: 35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1114633515
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114633512}
+  m_CullTransparentMesh: 1
 --- !u!1 &1232166741
 GameObject:
   m_ObjectHideFlags: 0
@@ -2611,6 +3027,144 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1348369796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348369797}
+  - component: {fileID: 1348369799}
+  - component: {fileID: 1348369798}
+  m_Layer: 5
+  m_Name: Abilities Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1348369797
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348369796}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1560704404}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -23, y: 423}
+  m_SizeDelta: {x: -1276.103, y: -780}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1348369798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348369796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Abilities
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3ae9bb6d231a04f468f22633ce0cc4d1, type: 2}
+  m_sharedMaterial: {fileID: 1090105011762810092, guid: 3ae9bb6d231a04f468f22633ce0cc4d1, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282162120
+  m_fontColor: {r: 0.78431374, g: 0.60784316, b: 0.23529412, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 35
+  m_fontSizeBase: 35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1348369799
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348369796}
+  m_CullTransparentMesh: 1
 --- !u!1 &1357904945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2745,8 +3299,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d18e6c5d1d876f408ca40aee0641982, type: 2}
+  m_sharedMaterial: {fileID: -4345796139928100296, guid: 8d18e6c5d1d876f408ca40aee0641982, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2770,8 +3324,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2942,6 +3496,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 878869720}
+  - {fileID: 1348369797}
+  - {fileID: 1114633513}
   - {fileID: 1398666728}
   - {fileID: 377615102}
   - {fileID: 2043051616}
