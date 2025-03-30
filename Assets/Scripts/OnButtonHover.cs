@@ -9,13 +9,18 @@ public class OnButtonHover : MonoBehaviour
 
     public void UpdateTextEnter(TMP_Text buttonText)
     {
+        if (!buttonText.GetComponentInParent<UnityEngine.UI.Button>().interactable) return;
+
         buttonText.fontSize += fontSizeIncrease;
         buttonText.color = hoverColor;
     }
 
     public void UpdateTextExit(TMP_Text buttonText)
     {
+        if (!buttonText.GetComponentInParent<UnityEngine.UI.Button>().interactable) return;
+
         buttonText.fontSize -= fontSizeIncrease;
         buttonText.color = defaultColor;
     }
+
 }
