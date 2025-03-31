@@ -17,11 +17,13 @@ public class SocialSideBarButton : MonoBehaviour
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        rectTransform.position = offPos;
+        //rectTransform.anchoredPosition = offPos;
     }
 
     private void Update()
     {
+        Debug.Log(rectTransform.position);
+
         if (moving)
         {
             rectTransform.anchoredPosition =

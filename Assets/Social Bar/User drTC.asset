@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f60304029dc80f468184c19d861394f, type: 3}
-  m_Name: Queens
+  m_Name: User drTC
   m_EditorClassIdentifier: 
-  username: AverageQueensStudent
-  message: sup frosh?
-  pfp: {fileID: 21300000, guid: 2efd15ba44a8efe4b95f975f236b2dd0, type: 3}
+  username: drTC
+  message: i challenge you to a d-d-d-duel
+  pfp: {fileID: 21300000, guid: 7ef30666891105f4793f9ebb3ecc4642, type: 3}

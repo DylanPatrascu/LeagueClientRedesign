@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f60304029dc80f468184c19d861394f, type: 3}
-  m_Name: UncleTony
+  m_Name: User Viktor
   m_EditorClassIdentifier: 
-  username: UncleTony
-  message: I love this game
-  pfp: {fileID: 21300000, guid: ab389a33f618d3148a8406e44774d5b2, type: 3}
+  username: viktor_vaughn
+  message: theres only one game left
+  pfp: {fileID: 21300000, guid: 4cb59b181921c064b8dfa358a0945a07, type: 3}
