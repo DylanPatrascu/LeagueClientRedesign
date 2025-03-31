@@ -10,18 +10,12 @@ public class CollectionButtons : MonoBehaviour {
     [SerializeField] Button[] buttons;
     [SerializeField] GameObject[] hoverImages;
     [SerializeField] GameObject[] contentPages;
-    public GameObject infotab;
 
 
 
     public Color hoverColor = new Color(200f / 255f, 170f / 255f, 110f / 255f);
     public Color defaultColor = new Color(200f / 255f, 155f / 255f, 60f / 255f);
 
-
-    public void Awake()
-    {
-        OnButtonClicked(buttons[0]);
-    }
 
     public void SetAllButtonsInteractable() {
         foreach (Button button in buttons) {
@@ -39,7 +33,6 @@ public class CollectionButtons : MonoBehaviour {
         {
             page.SetActive(false);
         }
-        infotab.SetActive(false);
     }
     
     public void OnButtonClicked(Button clickedButton) {
