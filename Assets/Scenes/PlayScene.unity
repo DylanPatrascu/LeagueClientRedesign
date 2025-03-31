@@ -25883,43 +25883,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
-<<<<<<< Updated upstream
-=======
---- !u!1 &848815172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2426518456833865860, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
-  m_PrefabInstance: {fileID: 1840617922}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &848815173 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7672106032195028090, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
-  m_PrefabInstance: {fileID: 1840617922}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &848815174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848815172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a48c0bae5662bd42ab0d8b60da4b125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &848815175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848815173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a48c0bae5662bd42ab0d8b60da4b125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> Stashed changes
 --- !u!1 &853691654
 GameObject:
   m_ObjectHideFlags: 0
@@ -44386,6 +44349,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403131838}
   m_CullTransparentMesh: 1
+--- !u!1 &1405583764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2426518456833865860, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+  m_PrefabInstance: {fileID: 1840617922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1405583765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7672106032195028090, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+  m_PrefabInstance: {fileID: 1840617922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1405583766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405583764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a48c0bae5662bd42ab0d8b60da4b125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1405583767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405583765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a48c0bae5662bd42ab0d8b60da4b125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1407135499
 GameObject:
   m_ObjectHideFlags: 0
@@ -59798,8 +59795,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
     - target: {fileID: 6315177227665553128, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -59811,7 +59806,7 @@ PrefabInstance:
     - target: {fileID: 6315177227665553128, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 848815174}
+      objectReference: {fileID: 1405583766}
     - target: {fileID: 6315177227665553128, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -59832,7 +59827,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
->>>>>>> Stashed changes
     - target: {fileID: 6994292581083914844, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -59865,8 +59859,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
     - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -59878,7 +59870,7 @@ PrefabInstance:
     - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 848815175}
+      objectReference: {fileID: 1405583767}
     - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -59899,7 +59891,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
->>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -59907,24 +59898,18 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 99397522}
     m_AddedComponents:
-<<<<<<< Updated upstream
-=======
     - targetCorrespondingSourceObject: {fileID: 7672106032195028090, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 848815175}
->>>>>>> Stashed changes
+      addedObject: {fileID: 1405583767}
     - targetCorrespondingSourceObject: {fileID: 224729711851042252, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1840617928}
     - targetCorrespondingSourceObject: {fileID: 5576526906989593065, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1840617925}
-<<<<<<< Updated upstream
-=======
     - targetCorrespondingSourceObject: {fileID: 2426518456833865860, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 848815174}
->>>>>>> Stashed changes
+      addedObject: {fileID: 1405583766}
   m_SourcePrefab: {fileID: 100100000, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
 --- !u!224 &1840617923 stripped
 RectTransform:
