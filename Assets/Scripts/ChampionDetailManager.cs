@@ -15,6 +15,9 @@ public class ChampionDetailManager : MonoBehaviour
     public Sprite ownedSprite;
     public Sprite unlockSprite;
     public Image nameImage;
+    public Image difficultyImage;
+    public TextMeshProUGUI roleText;
+
 
     void Awake()
     {
@@ -35,6 +38,8 @@ public class ChampionDetailManager : MonoBehaviour
         float aspect = nameImage.sprite.rect.width / nameImage.sprite.rect.height;
         nameImage.rectTransform.sizeDelta = new Vector2(fixedHeight * aspect, fixedHeight);
 
+        difficultyImage.sprite = data.difficultyImage;
+        roleText.text = data.roleName;
 
         statusImage.sprite = data.isPurchased ? ownedSprite : unlockSprite;
 

@@ -15,4 +15,12 @@ public class ChampionData
     public string bio;
 
     public Sprite nameImage;
+
+    public enum DifficultyLevel { Easy, Medium, Hard }
+    public DifficultyLevel difficulty;
+
+    public string roleName;
+
+    public Sprite difficultyImage;
+
 }
