@@ -21746,6 +21746,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662283082}
   m_CullTransparentMesh: 1
+--- !u!1 &662381871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6498516233846033069, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+  m_PrefabInstance: {fileID: 1564368152988644912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &666435854
 GameObject:
   m_ObjectHideFlags: 0
@@ -71173,7 +71178,11 @@ PrefabInstance:
     - target: {fileID: 3853413488752661187, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+<<<<<<< Updated upstream
       objectReference: {fileID: 1564368152988644917}
+=======
+      objectReference: {fileID: 1564368152988644918}
+>>>>>>> Stashed changes
     - target: {fileID: 3853413488752661187, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -71354,6 +71363,38 @@ PrefabInstance:
       propertyPath: defaultColor.r
       value: 0.9411765
       objectReference: {fileID: 0}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1564368152988644917}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ChampionScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265216815926703163, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8258684825997025086, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
     - {fileID: 3942648121680314658, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
@@ -71386,6 +71427,12 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6498516233846033069, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       insertIndex: -1
+<<<<<<< Updated upstream
+=======
+      addedObject: {fileID: 1564368152988644918}
+    - targetCorrespondingSourceObject: {fileID: 7672106032195028090, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+      insertIndex: -1
+>>>>>>> Stashed changes
       addedObject: {fileID: 1564368152988644917}
     - targetCorrespondingSourceObject: {fileID: 5576526906989593065, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
       insertIndex: -1
@@ -71396,7 +71443,11 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3341353096460933874, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
   m_PrefabInstance: {fileID: 1564368152988644912}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1564368152988644916}
+=======
+  m_GameObject: {fileID: 662381871}
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64e136078131ebc498129914f98ae9cb, type: 3}
@@ -71421,7 +71472,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!1 &1564368152988644916 stripped
 GameObject:
+<<<<<<< Updated upstream
   m_CorrespondingSourceObject: {fileID: 6498516233846033069, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+=======
+  m_CorrespondingSourceObject: {fileID: 7672106032195028090, guid: e0e35f1eb8391f34fb0b6e710154f109, type: 3}
+>>>>>>> Stashed changes
   m_PrefabInstance: {fileID: 1564368152988644912}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1564368152988644917
@@ -71436,6 +71491,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a48c0bae5662bd42ab0d8b60da4b125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1564368152988644918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662381871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a48c0bae5662bd42ab0d8b60da4b125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
