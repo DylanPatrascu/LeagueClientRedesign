@@ -1,8 +1,10 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; //Don't forget this!
+using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    [SerializeField] private GameObject newsWindow;
+
     public void LoadScene(string sceneName)
     {
         //It's worth looking at the documentation to see the different ways you load a scene
@@ -15,5 +17,15 @@ public class SceneController : MonoBehaviour
     {
         //https://docs.unity3d.com/ScriptReference/Application.Quit.html
         Application.Quit();
+    }
+
+    public void openWhatsNew()
+    {
+        newsWindow.SetActive(true);
+    } 
+
+    public void closeWhatsNew()
+    {
+        newsWindow.SetActive(false);
     }
 }
