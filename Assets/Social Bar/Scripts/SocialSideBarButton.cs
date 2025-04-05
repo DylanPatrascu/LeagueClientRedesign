@@ -16,7 +16,6 @@ public class SocialSideBarButton : MonoBehaviour
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        //rectTransform.anchoredPosition = offPos;
     }
 
     private void Update()
